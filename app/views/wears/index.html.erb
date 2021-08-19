@@ -1,2 +1,28 @@
-<h1>Wears#index</h1>
-<p>Find me in app/views/wears/index.html.erb</p>
+<div>
+  <h1>eCloset</h1>
+  <p>ようこそ、自分だけの仮想クローゼットへ。</p>
+
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>服</th>
+          <th>メモ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @wears.each do |wear| %>
+        <tr>
+          <td>
+            <%= attachment_image_tag wear, :image, format:"jpeg", fallback: 'no_image.jpg', size: '100×100' %>
+          </td>
+          <td>
+            <%= wear.text %>
+          </td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+</div>

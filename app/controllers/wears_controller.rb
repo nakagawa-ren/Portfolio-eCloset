@@ -1,11 +1,16 @@
 class WearsController < ApplicationController
   def new
+    @wear = Wear.new
   end
 
   def create
+    @wear = Wear.new(wear_params)
+    @wear.save
+    redirect_to wears_path
   end
 
   def index
+    @wears = Wear.all
   end
 
   def show
@@ -21,7 +26,7 @@ class WearsController < ApplicationController
   private
 
   def wear_params
-    params.require(:wear).permit(:image)
+    params.require(:wear).permit(:image, :text)
   end
 
 
