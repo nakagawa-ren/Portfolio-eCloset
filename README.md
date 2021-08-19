@@ -1,24 +1,41 @@
-# README
+# eCloset
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+仮想クローゼットを用い、持っている服を整理したり、管理することができるサイトです。
+タグをつけることで、色や服のジャンルを絞って検索することもできるため、必要な服をすぐに探すことができます。
+ショッピングの際に持っている服を一覧で確認することができるため、同じような服を買ってしまう心配もありません。
 
-Things you may want to cover:
+### サイトテーマ
+服の管理をもっと楽に、わかりやすく！！
 
-* Ruby version
 
-* System dependencies
+### テーマを選んだ理由
+長く着ていなかったり、量が多かったりすると、どんな種類のものをどれくらい持っているのか忘れてしまうことが、多々ありました。
+また、持っている服を把握していないためにコーデを考えるのに時間がかかることもありました。
+このようなことは自分だけでなく、友人や親にも当てはまりました。
+そのため、このアプリを作成しようと決めました。
 
-* Configuration
 
-* Database creation
+### ターゲットユーザ
+10代～40代（特に服の管理が苦手な人、毎日のコーデの時間を短縮したい人）
 
-* Database initialization
+### 主な利用シーン
+* コーデを決める際
+* ショッピング中
 
-* How to run the test suite
+## 設計書
+<...>
 
-* Services (job queues, cache servers, search engines, etc.)
+## チャレンジ要素一覧
+https://docs.google.com/spreadsheets/d/1DiSuvWKmyVMH43ZdUKCEZ-KO7WO6Wd4ooHy1mH9NVv8/edit?usp=sharing
 
-* Deployment instructions
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* ...
+## 使用素材
+- 必要なければ削除します
+
